@@ -1,33 +1,33 @@
--- PostgreSQL database dump
--- Dumped from database version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
--- Dumped by pg_dump version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
+-- Volcado de base de datos PostgreSQL
+-- Volcado de la versión 12.17 de la base de datos (Ubuntu 12.17-1.pgdg22.04+1)
+-- Volcado por pg_dump versión 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
 
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
-SET row_security = off;
+Colocar declaración_tiempo de espera = 0;
+ESTABLECER lock_timeout = 0;
+ESTABLECER idle_in_transaction_session_timeout = 0;
+Colocar codificación_cliente = 'UTF8';
+ESTABLECER cadenas_conformes_estándar = activado;
+SELECCIONAR pg_catalog.set_config('ruta_búsqueda', '', falso);
+Colocar check_function_bodies = falso;
+Colocar xmloption = contenido;
+Colocar client_min_messages = advertencia;
+ESTABLECER fila_seguridad = desactivado;
 
-DROP DATABASE IF EXISTS universe;
+SOLTAR BASE DE DATOS SI EXISTE universo;
 
-CREATE DATABASE universe WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C.UTF-8' LC_CTYPE = 'C.UTF-8';
+CREAR universo DE BASE DE DATOS CON PLANTILLA = plantilla0 CODIFICACIÓN = 'UTF8' LC_COLLATE = 'C.UTF-8' LC_CTYPE = 'C.UTF-8';
 
-\c universe
+\universo c
 
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
+Colocar declaración_tiempo de espera = 0;
+ESTABLECER lock_timeout = 0;
+ESTABLECER idle_in_transaction_session_timeout = 0;
+Colocar codificación_cliente = 'UTF8';
+ESTABLECER cadenas_conformes_estándar = activado;
+SELECCIONAR pg_catalog.set_config('ruta_búsqueda', '', falso);
+Colocar check_function_bodies = falso;
+Colocar xmloption = contenido;
+Colocar client_min_messages = advertencia;
 SET row_security = off;
 
 SET default_tablespace = '';
